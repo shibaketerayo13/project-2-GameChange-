@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign up form</title>
+  <link href="../css/sign-up.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <div class="authorization">
+    <div class="form">
+      <h1>Sign in</h1>
+    </div>
+    <form class="web_form">
+
+      <div class="form-item">
+        <input type="text" class="form-input" required>
+        <label class="form-label">Create your username</label>
+      </div>
+
+      <div class="form-item">
+        <input type="text" class="form-input" required>
+        <label class="form-label">Enter Email</label>
+      </div>
+
+      <div class="form-item">
+        <input type="password" id="form-pass" class="form-input" required>
+        <label class="form-label">Password</label>
+        <span class="pass-icon" id="pass-icon">
+          <img id="myImg" src="../images/no-view.svg" onClick="imgsrc();" style="width:20px;height:20px;">
+        </span>
+        
+      </div>
+
+      <div class="form-item">
+        <input type="password" id="form-pass" class="form-input" required>
+        <label class="form-label">Confirm your Password</label>
+        <span class="pass-icon" id="pass-icon">
+          <img id="myImg" src="../images/no-view.svg" onClick="imgsrc();" style="width:20px;height:20px;">
+        </span>
+      </div>
+
+      <div class="forgot-password">
+        <a href="">Forgot password?</a>
+      </div>
+      <button type="submit">Login</button>
+
+      <p>or continue with</p>
+      <div class="sign">
+        <span class="sign-icon" id="sign-icon">
+          <a href=""><img src="../images/Facebook.svg" style="width:45px;height:45px;"></a>
+          <a href=""><img src="../images/google.svg" style="width:45px;height:45px;"></a>
+        </span>
+    </form>
+    
+  </div>
+  <script src="../scripts/sign-up.js"></script>
+  <script 
+    src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
